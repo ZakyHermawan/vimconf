@@ -1,5 +1,5 @@
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 
 Plug 'mattn/emmet-vim'
 
