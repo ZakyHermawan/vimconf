@@ -2,6 +2,7 @@ set hlsearch
 set incsearch
 set nu
 set ruler
+set ignorecase
 filetype on
 
 
@@ -21,13 +22,11 @@ Plug 'shirk/vim-gas'
 call plug#end()
 
 filetype plugin indent on
-"show existimg tab with 4 space width
-set tabstop=4
-"when indemtimg with '>' use 4 space width"
-set shiftwidth=4
-"on pressing tab, insert 4 spaces
 set expandtab
+set shiftwidth=2
+set softtabstop=2
 
+set mouse=a
 
 :let g:airline_theme='murmur'
 
@@ -44,4 +43,3 @@ syntax on
 "let g:indentLine_setColors = 0
 
 let asmsyntax = 'gas'
-
